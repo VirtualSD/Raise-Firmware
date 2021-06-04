@@ -252,8 +252,9 @@ void setup()
   ColormapEffect.max_layers(10);
   LEDRainbowEffect.brightness(255);
   LEDRainbowWaveEffect.brightness(255);
+  WavePoolEffect.ripple_hue = 0;
   StalkerEffect.variant = STALKER(BlazingTrail);
-
+  
   DynamicTapDance.setup(0, 1024);
   DynamicMacros.reserve_storage(2048);
 
