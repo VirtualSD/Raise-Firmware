@@ -32,6 +32,7 @@
 #include "Kaleidoscope-LED-Palette-Theme.h"
 #include "Kaleidoscope-LEDEffect-Rainbow.h"
 #include "Kaleidoscope-LED-Stalker.h"
+#include "Kaleidoscope-LED-Wavepool.h"
 #include "Kaleidoscope-TapDance.h"
 #include "Kaleidoscope-DynamicTapDance.h"
 #include "Kaleidoscope-DynamicMacros.h"
@@ -253,6 +254,7 @@ void setup()
   LEDRainbowEffect.brightness(255);
   LEDRainbowWaveEffect.brightness(255);
   StalkerEffect.variant = STALKER(BlazingTrail);
+  WavepoolEffect.rainbow_hue(240);
 
   DynamicTapDance.setup(0, 1024);
   DynamicMacros.reserve_storage(2048);
